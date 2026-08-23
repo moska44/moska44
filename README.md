@@ -21,12 +21,12 @@ week. Hiring is a buying signal: who's scaling sales, who froze engineering.
 
 - **You are never charged for what you didn't receive.** A source that
   fails is not billed. A restarted run doesn't charge you twice.
-- **Official public APIs only.** No logins, no scraping of protected
-  content, no residential proxies.
-- **Measured, not assumed.** Every fix is verified against real runs
-  before it ships.
+- **Official public APIs, and robots.txt respected.** No logins, no
+  scraping of protected content, no residential proxies. When a site asks
+  not to be read, we don't read it — and the run says so.
+- **Measured, not assumed.** Fixes are verified against real data before
+  they ship — and when something can't be checked, that limit is written
+  down instead of glossed over.
 
 Found a bug or want another platform supported? Open an issue on the Actor —
 I read everything.
-
-📍 Bologna, Italy
