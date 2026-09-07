@@ -1,32 +1,26 @@
-## Andrea Moscariello — Farodata
+# Andrea Moscariello
 
-I build small, focused **Apify Actors** that watch what your competitors
-leave in public, and turn it into something you can act on.
+I work on **AI evaluation and verification** — building checks that prove work was actually
+done, rather than scoring what merely looks done.
 
-Pay per result. No surprise compute bills — platform usage is on me.
+### What I do
 
-### What I run
-
-**[AI Visibility Report](https://apify.com/farodata/ai-visibility-report)**
-Customers now ask ChatGPT, Perplexity and Claude what to buy and who to
-trust. This checks whether they mention your brand, who they recommend
-instead, which sources they cite, and what changed since your last run.
-
-**[Company Hiring Monitor](https://apify.com/farodata/company-hiring-monitor)**
-Open roles from company job boards — Greenhouse, Lever, Ashby, Workable —
-normalised into one schema, with what opened, closed and changed week over
-week. Hiring is a buying signal: who's scaling sales, who froze engineering.
+- **Deterministic verification** — automatic graders that resist gaming
+- **Adversarial testing of graders** — reward hacking, specification gaming, weak judgment extraction
+- **Benign red teaming** of LLM agents — indirect prompt injection, in sandboxes or authorised programs only
+- Python, agent harnesses, measurement pipelines
 
 ### How I work
 
-- **You are never charged for what you didn't receive.** A source that
-  fails is not billed. A restarted run doesn't charge you twice.
-- **Official public APIs, and robots.txt respected.** No logins, no
-  scraping of protected content, no residential proxies. When a site asks
-  not to be read, we don't read it — and the run says so.
-- **Measured, not assumed.** Fixes are verified against real data before
-  they ship — and when something can't be checked, that limit is written
-  down instead of glossed over.
+- Numbers come from primary sources, or they are marked as estimates
+- Findings are verified by hand before they are claimed — including the ones that don't survive verification
+- Limitations are documented, not omitted
 
-Found a bug or want another platform supported? Open an issue on the Actor —
-I read everything.
+### Also
+
+Two production Actors on [Apify](https://apify.com/farodata) — competitive-intelligence tooling,
+pay-per-event, **>99% of runs successful**. Small scale, built to work rather than to demo.
+
+---
+
+📫 andre.moska44@gmail.com
